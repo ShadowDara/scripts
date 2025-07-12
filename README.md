@@ -7,13 +7,33 @@ If you like them, it would be really cool if you star the repository!
 Feel free to add something via fork :)
 
 
-## Content Overview
+## Scripts
 
 | Name | Requirements | Codefile |
 |:--:|:--:|:--:|
-| edittime to filename | windows 10 / 11| [001](codefiles/001_edittime-to-filename.ps1) |
-| run without Admin Rights | windows 10 / 11 | - |
-| wifi password | windows 10 / 11 | - |
+| [change file extension](#change-file-extension) | windows 10 / 11 | [002](codefiles/002_change-file-extension.ps1) |
+| [edittime to filename](#edittime-to-filename) | windows 10 / 11| [001](codefiles/001_edittime-to-filename.ps1) |
+| [run without Admin Rights](#run-without-admin-rights) | windows 10 / 11 | - |
+| [wifi password](#wifi-password) | windows 10 / 11 | - |
+
+
+## change file extension
+
+This is a file to change the file extensions of *(all)* files in the same folder.
+
+- you need a powershell terminal installed for this! *(but on the windows it is usally installed)*
+
+### How
+
+- **Download the [`change_file_extension.ps1`](codefiles/change_file_extension.ps1) file**
+
+- *copy it in the folder with the files you need to change the extension*
+
+- then run the file with `Powershell` *(rightclick -> run with Powershell)*!
+
+- first type the old extension, then the new one
+
+- the script will rename every file with the old to the new extension.
 
 
 ## edittime to filename
@@ -63,11 +83,12 @@ echo Finished
 echo
 echo Credit and More:
 echo https://github.com/shadowdara/scripts
+
 @pause
 ```
 
 
-## wifipassword
+## wifi password
 
 This is a simple trick to read the already saved / registrated wlan / wifi passwords from your computer
 
@@ -122,6 +143,7 @@ echo Script ended
 echo
 echo Credit and More:
 echo https://github.com/shadowdara/scripts
+
 @pause
 ```
 

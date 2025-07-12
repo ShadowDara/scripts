@@ -1,7 +1,7 @@
 ﻿# PowerShell-Skript: Rename files to include edit time (LastWriteTime) as prefix
 #
 # Credit Shadowdara
-# 
+# https://github.com/shadowdara/scripts
 
 $folderPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Set-Location $folderPath
