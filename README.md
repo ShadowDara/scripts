@@ -4,6 +4,17 @@ Hey, here i collected some script for windows myself, feel free to use them!
 
 If you like them, it would be really cool if you star the repository!
 
+```
+:'######::'########::::'###::::'########::
+'##... ##:... ##..::::'## ##::: ##.... ##:
+ ##:::..::::: ##:::::'##:. ##:: ##:::: ##:
+. ######::::: ##::::'##:::. ##: ########::
+:..... ##:::: ##:::: #########: ##.. ##:::
+'##::: ##:::: ##:::: ##.... ##: ##::. ##::
+. ######::::: ##:::: ##:::: ##: ##:::. ##:
+:......::::::..:::::..:::::..::..:::::..::
+```
+
 Feel free to add something via fork :)
 
 
@@ -11,10 +22,45 @@ Feel free to add something via fork :)
 
 | Name | Requirements | Codefile |
 |:--:|:--:|:--:|
+| [change file edittime](#change-file-edittime) | windows 10 / 11 | [003](codefiles/003_change_file_edittime.ps1) |
 | [change file extension](#change-file-extension) | windows 10 / 11 | [002](codefiles/002_change-file-extension.ps1) |
 | [edittime to filename](#edittime-to-filename) | windows 10 / 11| [001](codefiles/001_edittime-to-filename.ps1) |
 | [run without Admin Rights](#run-without-admin-rights) | windows 10 / 11 | - |
 | [wifi password](#wifi-password) | windows 10 / 11 | - |
+
+
+## Other
+
+| Name | Requirements | Codefile |
+|:--:|:--:|:--:|
+| [Autorun for USB](#autorun-for-usb) | windows | - |
+
+
+```
+:'######:::'######::'########::'####:'########::'########::'######::
+'##... ##:'##... ##: ##.... ##:. ##:: ##.... ##:... ##..::'##... ##:
+ ##:::..:: ##:::..:: ##:::: ##:: ##:: ##:::: ##:::: ##:::: ##:::..::
+. ######:: ##::::::: ########::: ##:: ########::::: ##::::. ######::
+:..... ##: ##::::::: ##.. ##:::: ##:: ##.....:::::: ##:::::..... ##:
+'##::: ##: ##::: ##: ##::. ##::: ##:: ##::::::::::: ##::::'##::: ##:
+. ######::. ######:: ##:::. ##:'####: ##::::::::::: ##::::. ######::
+:......::::......:::..:::::..::....::..::::::::::::..::::::......:::
+```
+
+
+## change file edittime
+
+This is a file to change the edittime of a file.
+
+- you need a powershell terminal installed for this! *(but on the windows it is usally installed)*
+
+### How
+
+- **Download the [`change_file_edittime.ps1`](codefiles/003_change_file_edittime.ps1) file**
+
+- *copy it in the folder with the files you need to change the edit time*
+
+- then run the file with `Powershell` *(rightclick -> run with Powershell)*!
 
 
 ## change file extension
@@ -148,6 +194,36 @@ echo https://github.com/shadowdara/scripts
 ```
 
 
+```
+:'#######::'########:'##::::'##:'########:'########::
+'##.... ##:... ##..:: ##:::: ##: ##.....:: ##.... ##:
+ ##:::: ##:::: ##:::: ##:::: ##: ##::::::: ##:::: ##:
+ ##:::: ##:::: ##:::: #########: ######::: ########::
+ ##:::: ##:::: ##:::: ##.... ##: ##...:::: ##.. ##:::
+ ##:::: ##:::: ##:::: ##:::: ##: ##::::::: ##::. ##::
+. #######::::: ##:::: ##:::: ##: ########: ##:::. ##:
+:.......::::::..:::::..:::::..::........::..:::::..::
+```
+
+
+## Autorun for USB
+
+This a code configgering USB-Sticks and running programms automatically with them
+
+```ini
+[autorun]
+icon=Dara.ico
+label="117GB"
+open=start.bat
+```
+
+**Explanation**
+- `icon` defines the used icon for the device in the explorer
+- `label` is the used name of the device
+- `open` is used to open a file, for example a `.bat` file *(but this feature is
+normally disabled now)*
+
+
 ## Credits
 
 Creator: Shadowdara
@@ -176,4 +252,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </pre></details>
 
-License only applies for republishing the code, not for using
+**License only applies for republishing the code, not for using**
+
+```
+'########:::::'###::::'########:::::'###::::
+ ##.... ##:::'## ##::: ##.... ##:::'## ##:::
+ ##:::: ##::'##:. ##:: ##:::: ##::'##:. ##::
+ ##:::: ##:'##:::. ##: ########::'##:::. ##:
+ ##:::: ##: #########: ##.. ##::: #########:
+ ##:::: ##: ##.... ##: ##::. ##:: ##.... ##:
+ ########:: ##:::: ##: ##:::. ##: ##:::: ##:
+........:::..:::::..::..:::::..::..:::::..::
+```
+
+*sorry, i really like these ascii banners* ;)
+
+Credit Ascii banner: <a href="https://manytools.org/hacker-tools/ascii-banner/">manytools.org/hacker-tools/ascii-banner</a>
+
+Font: Banner3D
